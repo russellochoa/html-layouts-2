@@ -13,68 +13,63 @@ body {
 
 
 .container {
-	padding: 25px;
-  	min-height: 385px;
+	padding: 35px;
   	width: 100%;
   	max-width: 845px;
   	background-color: white;
   	color: #000019;
   	margin: 0 auto;
   	margin-top: 50px;
+  	box-sizing: border-box;
 
 }
 
 
 p { 
 	font-family: helvetica;
-	margin: 25px auto;
 	font-size: 25px;
 	color: ##000019;
 	line-height: 35px;
-	padding: 0px 40px;
 
 }
 
 
 .redb {	
+	display: inline-block;
 	background-color: #CD0D24;
 	color: white;
 	font-family: helvetica;
 	font-size: 35px;
 	font-weight: 300;
-	height: 70px;
-	width: 180px;
 	text-align: center;
-	vertical-align: middle;
-	float: left;
 	letter-spacing: -2px;
-	margin: 0px 25px;
- 	line-height: 2em;
  	border: 1px solid;
  	border-color: #D8D8D8;
  	border-radius: .5em;
  	text-decoration: none;
+ 	padding: 15px 40px;
+ 	margin-right: 35px;
+
+
  
 
 }
 
 .blueb {	
+	display: inline-block;
 	background-color: #4C8FDB;
 	color: white;
 	font-family: helvetica;
 	font-size: 35px;
 	font-weight: 300;
-	height: 70px;
-	width: 180px;
 	text-align: center;
-	vertical-align: middle;
-	float: left;
 	letter-spacing: -2px;
- 	line-height: 2em;
  	border: 1px solid;
  	border-color: #D8D8D8;
  	border-radius: .5em;
  	text-decoration: none;
+ 	padding: 15px 40px;
+
  
 
 }
@@ -82,7 +77,8 @@ p {
 
 .display {
 	height: 420px;
-	width: 760px;
+	max-width: 760px;
+	width: 100%;
 	background-color: black;
 	margin: 25px auto;
 
